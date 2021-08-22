@@ -1,9 +1,9 @@
 Домашние задания к курсу «Продвинутый JavaScript в браузере»
 
 Лекция 
-# Работа с файлами, DnD
-## Modern Image Manager
+# Анимации и CSS
+## Collapse
 
-[![Build status](https://ci.appveyor.com/api/projects/status/adiobblyul74rm1y?svg=true)](https://ci.appveyor.com/project/ChumakovaAnna/ahj6-2)
+[![Build status](https://ci.appveyor.com/api/projects/status/phgmwcxk3cbolmr7?svg=true)](https://ci.appveyor.com/project/ChumakovaAnna/ahj9-1)
 
-https://chumakovaanna.github.io/AHJ6.2/
+https://chumakovaanna.github.io/AHJ9.1/
