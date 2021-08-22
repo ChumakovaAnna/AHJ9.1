@@ -3,15 +3,17 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
-  entry: "./src/index.js",
+  mode: "development",
+  entry: {
+    index: "./src/index.js",
+  },
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "app.bundle.js",
+    filename: "[name].bundle.js",
   },
   devServer: {
     port: 9000,
   },
-  mode: "production",
   devtool: "inline-source-map",
   module: {
     rules: [
@@ -43,6 +45,7 @@ module.exports = {
     new HtmlWebPackPlugin({
       template: "./src/index.html",
       filename: "./index.html",
+      favicon: "./src/favicon.ico",
     }),
     new MiniCssExtractPlugin({
       filename: "[name].css",
